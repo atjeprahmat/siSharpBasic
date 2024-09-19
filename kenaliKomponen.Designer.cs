@@ -55,8 +55,27 @@
             this.textBox6 = new System.Windows.Forms.TextBox();
             this.label10 = new System.Windows.Forms.Label();
             this.dateTimePicker1 = new System.Windows.Forms.DateTimePicker();
+            this.groupBox3 = new System.Windows.Forms.GroupBox();
+            this.dataGridView1 = new System.Windows.Forms.DataGridView();
+            this.nis = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.nama = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.jk = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.rombel = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.rayon = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.alamat = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.tempat_lahir = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.tgl_lahir = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.button5 = new System.Windows.Forms.Button();
+            this.button6 = new System.Windows.Forms.Button();
+            this.button7 = new System.Windows.Forms.Button();
+            this.button8 = new System.Windows.Forms.Button();
+            this.textBox7 = new System.Windows.Forms.TextBox();
+            this.label11 = new System.Windows.Forms.Label();
+            this.button9 = new System.Windows.Forms.Button();
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
+            this.groupBox3.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.SuspendLayout();
             // 
             // groupBox1
@@ -328,11 +347,165 @@
             this.dateTimePicker1.Size = new System.Drawing.Size(273, 31);
             this.dateTimePicker1.TabIndex = 24;
             // 
+            // groupBox3
+            // 
+            this.groupBox3.Controls.Add(this.button9);
+            this.groupBox3.Controls.Add(this.textBox7);
+            this.groupBox3.Controls.Add(this.label11);
+            this.groupBox3.Controls.Add(this.button8);
+            this.groupBox3.Controls.Add(this.button7);
+            this.groupBox3.Controls.Add(this.button6);
+            this.groupBox3.Controls.Add(this.button5);
+            this.groupBox3.Controls.Add(this.dataGridView1);
+            this.groupBox3.Location = new System.Drawing.Point(536, 12);
+            this.groupBox3.Name = "groupBox3";
+            this.groupBox3.Size = new System.Drawing.Size(898, 481);
+            this.groupBox3.TabIndex = 2;
+            this.groupBox3.TabStop = false;
+            this.groupBox3.Text = "Data Siswa";
+            // 
+            // dataGridView1
+            // 
+            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dataGridView1.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
+            this.nis,
+            this.nama,
+            this.jk,
+            this.rombel,
+            this.rayon,
+            this.alamat,
+            this.tempat_lahir,
+            this.tgl_lahir});
+            this.dataGridView1.Location = new System.Drawing.Point(17, 118);
+            this.dataGridView1.Name = "dataGridView1";
+            this.dataGridView1.RowHeadersWidth = 62;
+            this.dataGridView1.RowTemplate.Height = 33;
+            this.dataGridView1.Size = new System.Drawing.Size(862, 150);
+            this.dataGridView1.TabIndex = 0;
+            // 
+            // nis
+            // 
+            this.nis.HeaderText = "NIS";
+            this.nis.MinimumWidth = 8;
+            this.nis.Name = "nis";
+            this.nis.Width = 150;
+            // 
+            // nama
+            // 
+            this.nama.HeaderText = "Nama";
+            this.nama.MinimumWidth = 8;
+            this.nama.Name = "nama";
+            this.nama.Width = 150;
+            // 
+            // jk
+            // 
+            this.jk.HeaderText = "Jenis Kelamin";
+            this.jk.MinimumWidth = 8;
+            this.jk.Name = "jk";
+            this.jk.Width = 150;
+            // 
+            // rombel
+            // 
+            this.rombel.HeaderText = "Rombel";
+            this.rombel.MinimumWidth = 8;
+            this.rombel.Name = "rombel";
+            this.rombel.Width = 150;
+            // 
+            // rayon
+            // 
+            this.rayon.HeaderText = "Rayon";
+            this.rayon.MinimumWidth = 8;
+            this.rayon.Name = "rayon";
+            this.rayon.Width = 150;
+            // 
+            // alamat
+            // 
+            this.alamat.HeaderText = "Alamat";
+            this.alamat.MinimumWidth = 8;
+            this.alamat.Name = "alamat";
+            this.alamat.Width = 150;
+            // 
+            // tempat_lahir
+            // 
+            this.tempat_lahir.HeaderText = "Tempat Lahir";
+            this.tempat_lahir.MinimumWidth = 8;
+            this.tempat_lahir.Name = "tempat_lahir";
+            this.tempat_lahir.Width = 150;
+            // 
+            // tgl_lahir
+            // 
+            this.tgl_lahir.HeaderText = "Tanggal Lahir";
+            this.tgl_lahir.MinimumWidth = 8;
+            this.tgl_lahir.Name = "tgl_lahir";
+            this.tgl_lahir.Width = 150;
+            // 
+            // button5
+            // 
+            this.button5.Location = new System.Drawing.Point(48, 307);
+            this.button5.Name = "button5";
+            this.button5.Size = new System.Drawing.Size(119, 39);
+            this.button5.TabIndex = 6;
+            this.button5.Text = "RESET";
+            this.button5.UseVisualStyleBackColor = true;
+            // 
+            // button6
+            // 
+            this.button6.Location = new System.Drawing.Point(186, 307);
+            this.button6.Name = "button6";
+            this.button6.Size = new System.Drawing.Size(119, 39);
+            this.button6.TabIndex = 7;
+            this.button6.Text = "SIMPAN";
+            this.button6.UseVisualStyleBackColor = true;
+            // 
+            // button7
+            // 
+            this.button7.Location = new System.Drawing.Point(327, 307);
+            this.button7.Name = "button7";
+            this.button7.Size = new System.Drawing.Size(119, 39);
+            this.button7.TabIndex = 8;
+            this.button7.Text = "EDIT";
+            this.button7.UseVisualStyleBackColor = true;
+            // 
+            // button8
+            // 
+            this.button8.Location = new System.Drawing.Point(473, 307);
+            this.button8.Name = "button8";
+            this.button8.Size = new System.Drawing.Size(119, 39);
+            this.button8.TabIndex = 9;
+            this.button8.Text = "HAPUS";
+            this.button8.UseVisualStyleBackColor = true;
+            // 
+            // textBox7
+            // 
+            this.textBox7.Location = new System.Drawing.Point(173, 70);
+            this.textBox7.Name = "textBox7";
+            this.textBox7.Size = new System.Drawing.Size(168, 31);
+            this.textBox7.TabIndex = 7;
+            // 
+            // label11
+            // 
+            this.label11.AutoSize = true;
+            this.label11.Location = new System.Drawing.Point(34, 70);
+            this.label11.Name = "label11";
+            this.label11.Size = new System.Drawing.Size(109, 25);
+            this.label11.TabIndex = 6;
+            this.label11.Text = "Pencarian";
+            // 
+            // button9
+            // 
+            this.button9.Location = new System.Drawing.Point(369, 66);
+            this.button9.Name = "button9";
+            this.button9.Size = new System.Drawing.Size(119, 39);
+            this.button9.TabIndex = 10;
+            this.button9.Text = "Cari";
+            this.button9.UseVisualStyleBackColor = true;
+            // 
             // kenaliKomponen
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(12F, 25F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1331, 959);
+            this.ClientSize = new System.Drawing.Size(1435, 959);
+            this.Controls.Add(this.groupBox3);
             this.Controls.Add(this.groupBox2);
             this.Controls.Add(this.groupBox1);
             this.Name = "kenaliKomponen";
@@ -342,6 +515,9 @@
             this.groupBox1.PerformLayout();
             this.groupBox2.ResumeLayout(false);
             this.groupBox2.PerformLayout();
+            this.groupBox3.ResumeLayout(false);
+            this.groupBox3.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -375,6 +551,23 @@
         private System.Windows.Forms.TextBox textBox6;
         private System.Windows.Forms.Label label9;
         private System.Windows.Forms.DateTimePicker dateTimePicker1;
+        private System.Windows.Forms.GroupBox groupBox3;
+        private System.Windows.Forms.DataGridView dataGridView1;
+        private System.Windows.Forms.DataGridViewTextBoxColumn nis;
+        private System.Windows.Forms.DataGridViewTextBoxColumn nama;
+        private System.Windows.Forms.DataGridViewTextBoxColumn jk;
+        private System.Windows.Forms.DataGridViewTextBoxColumn rombel;
+        private System.Windows.Forms.DataGridViewTextBoxColumn rayon;
+        private System.Windows.Forms.DataGridViewTextBoxColumn alamat;
+        private System.Windows.Forms.DataGridViewTextBoxColumn tempat_lahir;
+        private System.Windows.Forms.DataGridViewTextBoxColumn tgl_lahir;
+        private System.Windows.Forms.Button button9;
+        private System.Windows.Forms.TextBox textBox7;
+        private System.Windows.Forms.Label label11;
+        private System.Windows.Forms.Button button8;
+        private System.Windows.Forms.Button button7;
+        private System.Windows.Forms.Button button6;
+        private System.Windows.Forms.Button button5;
     }
 }
 
