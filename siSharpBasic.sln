@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.6.33829.357
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "siSharpBasic", "siSharpBasic.csproj", "{E43352A4-4503-4BDF-8866-9BFA566129FE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E43352A4-4503-4BDF-8866-9BFA566129FE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E43352A4-4503-4BDF-8866-9BFA566129FE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E43352A4-4503-4BDF-8866-9BFA566129FE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E43352A4-4503-4BDF-8866-9BFA566129FE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {45425DD8-C5A7-4DAE-B390-C21DC7DDA00C}
+	EndGlobalSection
+EndGlobal
