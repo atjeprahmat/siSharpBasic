@@ -19,7 +19,17 @@ namespace siSharpBasic
 
         private void button1_Click(object sender, EventArgs e)
         {
-            
+            int panjang = Convert.ToInt32(textBox1.Text);
+            int lebar = Convert.ToInt32(textBox2.Text);
+            int luas;
+
+            luas = panjang * lebar;
+            textBox3.Text = luas.ToString();
+        }
+
+        private void label5_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

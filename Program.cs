@@ -16,7 +16,7 @@ namespace siSharpBasic
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new cetakString());
+            Application.Run(new calculator());
         }
     }
 }
