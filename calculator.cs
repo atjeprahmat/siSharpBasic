@@ -68,5 +68,10 @@ namespace siSharpBasic
             textBox2.Text = string.Empty;
             textBox3.Text = string.Empty;
         }
+
+        private void calculator_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

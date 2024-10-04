@@ -64,11 +64,29 @@
     <Compile Include="kenaliKomponen.Designer.cs">
       <DependentUpon>kenaliKomponen.cs</DependentUpon>
     </Compile>
+    <Compile Include="luasPersegi.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="luasPersegi.Designer.cs">
+      <DependentUpon>luasPersegi.cs</DependentUpon>
+    </Compile>
     <Compile Include="luasPersegiPanjang.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="luasPersegiPanjang.Designer.cs">
       <DependentUpon>luasPersegiPanjang.cs</DependentUpon>
+    </Compile>
+    <Compile Include="luasSegiTiga.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="luasSegiTiga.Designer.cs">
+      <DependentUpon>luasSegiTiga.cs</DependentUpon>
+    </Compile>
+    <Compile Include="luasTrapesium.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="luasTrapesium.Designer.cs">
+      <DependentUpon>luasTrapesium.cs</DependentUpon>
     </Compile>
     <Compile Include="messageBox.cs">
       <SubType>Form</SubType>
@@ -87,8 +105,17 @@
     <EmbeddedResource Include="kenaliKomponen.resx">
       <DependentUpon>kenaliKomponen.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="luasPersegi.resx">
+      <DependentUpon>luasPersegi.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="luasPersegiPanjang.resx">
       <DependentUpon>luasPersegiPanjang.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="luasSegiTiga.resx">
+      <DependentUpon>luasSegiTiga.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="luasTrapesium.resx">
+      <DependentUpon>luasTrapesium.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="messageBox.resx">
       <DependentUpon>messageBox.cs</DependentUpon>
